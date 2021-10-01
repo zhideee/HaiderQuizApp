@@ -22,6 +22,7 @@ data = `[
 
 var currenQ = {}
 currenQ.score = 0
+currenQ.start = 1
 
 function randomIntFromInterval(min, max) { 
     return Math.floor(Math.random() * (max - min + 1) + min)
@@ -36,6 +37,18 @@ function next(){
     var Fragen = JSON.parse(data);
     var len = data.replace(/[^{]/g, "").length
     var random_num = randomIntFromInterval(0, len - 1)
+
+    console.log(currenQ.start)
+
+    if (currenQ.start === 1) {
+        document.getElementById('dragon').style.display = 'none'
+        document.getElementById('score').style.display = 'block';
+        document.getElementById('frage').style.display = 'block';
+        document.getElementById('Antwort1').style.display = 'inline-block';
+        document.getElementById('Antwort2').style.display = 'inline-block';
+        document.getElementById('Antwort3').style.display = 'inline-block';
+        document.getElementById('button').innerHTML = 'Weiter'
+    }
 
     currenQ.num = random_num
     console.log(random_num)
