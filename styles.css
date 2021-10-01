@@ -8,11 +8,15 @@ body{
     margin-bottom: 10%;
 }
 h3{
+    display: none;
+
     font-size: 550%;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 5%;
 }
 .antworten{
+    display: none;
+
     font-size: 500%;
     background-color: #d487a6;
     border: 10px solid rgb(207, 100, 143);
@@ -35,8 +39,13 @@ h3{
     color: black;
 }
 #score{
+    display: none;
+
     font-size: 500%;
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: green;
+}
+#dragon{
+    border-radius: 10%;
 }
