@@ -1,0 +1,16 @@
+{
+    "fragen": [
+        {
+            "frage": "Wie heißt der Wongl?",
+            "A1": "Rudi",
+            "A2": "Reiner",
+            "A3": "Rainer*"
+        },
+        {
+            "frage": "Welche Hausnummer hat der Wongl?",
+            "A1": "1",
+            "A2": "8*",
+            "A3": "7"
+        }
+    ]
+}

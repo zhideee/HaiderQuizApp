@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>HaiderQuizApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img id="header" src="img/header.png">
+    </div>
+
+    <div class="game">
+        <h3 id="frage">Frage</h3>
+
+        <button class="antworten" id="Antwort1" onclick="checkanswer(1)">Antwort 1</button> <br>
+        <button class="antworten" id="Antwort2" onclick="checkanswer(2)">Antwort 2</button> <br>
+        <button class="antworten" id="Antwort3" onclick="checkanswer(3)">Antwort 3</button> <br>
+        <br>
+        <button id="button" onclick="next()">Weiter</button>
+    </div>
+
+
+
+    <h2>Ergebnis: <span id="ergebnis"></span></h2>
+
+</body>
+<script src="main.js"></script>
+</html>
