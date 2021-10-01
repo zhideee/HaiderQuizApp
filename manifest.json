@@ -1,0 +1,10 @@
+{
+    "name": "HaiderQuizApp",
+    "short_name": "HaiderQuizApp",
+    "theme_color": "#f5d615",
+    "background_color": "#f5d615",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
