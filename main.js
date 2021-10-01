@@ -17,6 +17,180 @@ data = `[
         "A1" : "Rudolf",
         "A2" : "Ralf",
         "A3" : "Rudi*"
+    },
+    {
+        "frage" : "Wie lautet der Wohnort des Ogers?",
+        "A1" : "Emskirchen*",
+        "A2" : "Dresden",
+        "A3" : "Flachau"
+    },
+    {
+        "frage" : "Wie hieß des Lords Vater?",
+        "A1" : "Rudolf",
+        "A2" : "Ralf",
+        "A3" : "Rudi*"
+    },
+    {
+        "frage" : "Wann startete der Oger seinen Kanal?",
+        "A1" : "2010",
+        "A2" : "2012*",
+        "A3" : "2011"
+    },
+    {
+        "frage" : "Wann verriet der Wongl seine Adresse?",
+        "A1" : "2014*",
+        "A2" : "2013",
+        "A3" : "2015"
+    },
+    {
+        "frage" : "Wann fand der erste Besuch statt?",
+        "A1" : "2013",
+        "A2" : "2015*",
+        "A3" : "2014"
+    },
+    {
+        "frage" : "Wann täuschte der Wongl seinen Tod vor?",
+        "A1" : "2015*",
+        "A2" : "2016",
+        "A3" : "2017"
+    },
+    {
+        "frage" : "Wann erstellte Rainer seinen X-Hamster Account?",
+        "A1" : "2017*",
+        "A2" : "2018",
+        "A3" : "2019"
+    },
+    {
+        "frage" : "Wann erstellte der Oger seinen PH-Account?",
+        "A1" : "2016",
+        "A2" : "2017",
+        "A3" : "2018*"
+    },
+    {
+        "frage" : "Wann wurde das Tor des Ogers zerstört?",
+        "A1" : "2019",
+        "A2" : "2020*",
+        "A3" : "2021"
+    },
+    {
+        "frage" : "Wann bekam Rainer den 100k Playbutton?",
+        "A1" : "Februar 2019",
+        "A2" : "März 2020",
+        "A3" : "Mai 2021*"
+    },
+    {
+        "frage" : "In welchem Monat fand 2018 das Schanzenfest statt?",
+        "A1" : "Mai",
+        "A2" : "August*",
+        "A3" : "September"
+    },
+    {
+        "frage" : "Wann verlor der Oger einen Zahn?",
+        "A1" : "2017*",
+        "A2" : "2018",
+        "A3" : "2019"
+    },
+    {
+        "frage" : "Wann bekam Rainerle seinen YouNow Abo-Button?",
+        "A1" : "2016",
+        "A2" : "2017*",
+        "A3" : "2018"
+    },
+    {
+        "frage" : "Wie lange hatte Rainer 2016 keinen Strom?",
+        "A1" : "3 Monate",
+        "A2" : "7 Monate",
+        "A3" : "5 Monate*"
+    },
+    {
+        "frage" : "Welches Werkzeug hat Rainerle 2016 geworfen?",
+        "A1" : "Hammer",
+        "A2" : "Axt*",
+        "A3" : "Säge"
+    },
+    {
+        "frage" : "Wann verstarb Rainers Vater?",
+        "A1" : "Juli 2012*",
+        "A2" : "August 2010",
+        "A3" : "Februar 2007"
+    },
+    {
+        "frage" : "Wann gab es das erste Besuchervideo?",
+        "A1" : "2014",
+        "A2" : "2015*",
+        "A3" : "2016"
+    },
+    {
+        "frage" : "Wann erstellte der Wongl seinen Gaming-Kanal?",
+        "A1" : "2014*",
+        "A2" : "2015",
+        "A3" : "2017"
+    },
+    {
+        "frage" : "Wieviel wiegt der Oger?",
+        "A1" : "100kg - 120kg",
+        "A2" : "140kg - 150kg*",
+        "A3" : "150kg - 160kg"
+    },
+    {
+        "frage" : "Welches Tier ist laut Rainerle ziemlich episch?",
+        "A1" : "Drache",
+        "A2" : "Hamster*",
+        "A3" : "Löwe"
+    },
+    {
+        "frage" : "Wann besuchte Boneclinks des Drachens Schanze?",
+        "A1" : "Juli 2017*",
+        "A2" : "Juni 2018",
+        "A3" : "August 2018"
+    },
+    {
+        "frage" : "Wie lang ging Boneclinks Besuchervideo?",
+        "A1" : "10 min",
+        "A2" : "15 min",
+        "A3" : "25 min*"
+    },
+    {
+        "frage" : "Wie lautet die richtige Domain?",
+        "A1" : "Drachiv.de",
+        "A2" : "Drachiv.com",
+        "A3" : "Drachiv.eu*"
+    },
+    {
+        "frage" : "Zu welchem Anlass wurde Skrrr Skrrr veröffentlicht?",
+        "A1" : "Sein neuer Audi",
+        "A2" : "kein besonderer Anlass",
+        "A3" : "100k Abos*"
+    },
+    {
+        "frage" : "Wieviele Aufrufe hat Skrrr Skrrr? Stand 09.07.2021 Juli 2021?",
+        "A1" : "1,9M Aufrufe*",
+        "A2" : "770k Aufrufe",
+        "A3" : "2,3M Aufrufe"
+    },
+    {
+        "frage" : "Welches Auto ist das MeddlMobil?",
+        "A1" : "Blauer 3er BMW",
+        "A2" : "Roter Audi A4*",
+        "A3" : "Schwarzer VW Golf"
+    },
+    {
+        "frage" : "Wem stellte der Wongl den legendären Antrag?",
+        "A1" : "Erdbeerchen*",
+        "A2" : "DrachenLady",
+        "A3" : "Äpfelchen"
+    },
+    {
+        "frage" : "Welche Sexualität hat der Oger?",
+        "A1" : "Heterosexuell",
+        "A2" : "Homosexuell",
+        "A3" : "Bisexuall*"
+    },
+    {
+        "frage" : "Was geschah am Mettwoch?",
+        "A1" : "Haider griffen im Stream an",
+        "A2" : "Drachenlord verletzte sich",
+        "A3" : "Oger stellte den Antrag*"
     }
 ]`
 
