@@ -21,14 +21,21 @@ h3{
     padding-top: 3%;
     padding-bottom: 3%;
     width: 80%;
+    color: black;
 }
 .next{
     font-size: 500%;
-    background-color: #00960c;
-    border: 10px solid rgb(60, 179, 13);
+    background-color: #117ed6;
+    border: 10px solid rgb(39, 117, 190);
     margin: 10%;
     border-radius: 25px;
     padding-top: 3%;
     padding-bottom: 3%;
     width: 80%;
+}
+#score{
+    font-size: 500%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
 }
