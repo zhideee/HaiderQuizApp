@@ -224,7 +224,6 @@ function enableAll() {
     document.getElementById('Antwort1').disabled = false
     document.getElementById('Antwort2').disabled = false
     document.getElementById('Antwort3').disabled = false
-
 }
 
 function next(){
@@ -246,20 +245,37 @@ function next(){
         document.getElementById('button').innerHTML = 'Weiter'
     }
 
-    currenQ.num = random_num
-    console.log(random_num)
+    if (currenQ.loose === "True") {
+        currenQ.loose = "False";
+        currenQ.start = 1;
 
-    document.getElementById('frage').innerHTML = Fragen[random_num].frage;
+        document.getElementById('hs').style.display = 'block';
+        document.getElementById('dragon').style.display = 'inline-block';
+        document.getElementById('score').style.display = 'none';
+        document.getElementById('frage').style.display = 'none';
+        document.getElementById('Antwort1').style.display = 'none';
+        document.getElementById('Antwort2').style.display = 'none';
+        document.getElementById('Antwort3').style.display = 'none';
+        document.getElementById('button').innerHTML = 'Start'
+        document.getElementById('button').disabled = false
+        document.getElementById('button').style.color = 'black'
+    }
+    else{
+        currenQ.num = random_num
+        console.log(random_num)
 
-    resetColor('Antwort1')
-    resetColor('Antwort2')
-    resetColor('Antwort3')
+        document.getElementById('frage').innerHTML = Fragen[random_num].frage;
 
-    document.getElementById('Antwort1').innerHTML = Fragen[random_num].A1.replace("*", "");
-    document.getElementById('Antwort2').innerHTML = Fragen[random_num].A2.replace("*", "");
-    document.getElementById('Antwort3').innerHTML = Fragen[random_num].A3.replace("*", "");
-    document.getElementById('button').disabled = true
-    document.getElementById('button').style.color = 'grey'
+        resetColor('Antwort1')
+        resetColor('Antwort2')
+        resetColor('Antwort3')
+
+        document.getElementById('Antwort1').innerHTML = Fragen[random_num].A1.replace("*", "");
+        document.getElementById('Antwort2').innerHTML = Fragen[random_num].A2.replace("*", "");
+        document.getElementById('Antwort3').innerHTML = Fragen[random_num].A3.replace("*", "");
+        document.getElementById('button').disabled = true
+        document.getElementById('button').style.color = 'grey'
+    }
 }
 
 function checkanswer(number) {
@@ -286,6 +302,7 @@ function checkanswer(number) {
             document.getElementById('Antwort1').style.border = "10px solid rgb(194, 67, 67)"
             var Score = currenQ.score = 0
             document.getElementById('score').innerHTML = Score
+            currenQ.loose = "True"
     
             if (Fragen[currenQ.num].A2.includes("*")){
                 document.getElementById('Antwort2').style.backgroundColor = "green";
@@ -316,6 +333,7 @@ function checkanswer(number) {
             document.getElementById('Antwort2').style.border = "10px solid rgb(194, 67, 67)"
             var Score = currenQ.score = 0
             document.getElementById('score').innerHTML = Score
+            currenQ.loose = "True"
     
             if (Fragen[currenQ.num].A1.includes("*")){
                 document.getElementById('Antwort1').style.backgroundColor = "green";
@@ -346,6 +364,7 @@ function checkanswer(number) {
             document.getElementById('Antwort3').style.border = "10px solid rgb(194, 67, 67)"
             var Score = currenQ.score = 0
             document.getElementById('score').innerHTML = Score
+            currenQ.loose = "True"
     
             if (Fragen[currenQ.num].A1.includes("*")){
                 document.getElementById('Antwort1').style.backgroundColor = "green";
