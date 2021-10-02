@@ -207,6 +207,19 @@ function resetColor(id) {
     document.getElementById(id).style.backgroundColor = '#d487a6'
 }
 
+function disableAll() {
+    document.getElementById('Antwort1').disabled = true
+    document.getElementById('Antwort2').disabled = true
+    document.getElementById('Antwort3').disabled = true
+}
+
+function enableAll() {
+    document.getElementById('Antwort1').disabled = false
+    document.getElementById('Antwort2').disabled = false
+    document.getElementById('Antwort3').disabled = false
+
+}
+
 function next(){
     var Fragen = JSON.parse(data);
     var len = data.replace(/[^{]/g, "").length
@@ -236,11 +249,18 @@ function next(){
     document.getElementById('Antwort1').innerHTML = Fragen[random_num].A1.replace("*", "");
     document.getElementById('Antwort2').innerHTML = Fragen[random_num].A2.replace("*", "");
     document.getElementById('Antwort3').innerHTML = Fragen[random_num].A3.replace("*", "");
+    document.getElementById('button').disabled = true
+    document.getElementById('button').style.color = 'grey'
 }
 
 function checkanswer(number) {
     var Fragen = JSON.parse(data);
     
+    document.getElementById('button').disabled = false
+    document.getElementById('button').style.color = 'black'
+
+    disableAll()
+
     if(number === 1) {
         antwort = Fragen[currenQ.num].A1
 
