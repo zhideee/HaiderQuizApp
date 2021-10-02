@@ -198,6 +198,10 @@ var currenQ = {}
 currenQ.score = 0
 currenQ.start = 1
 
+if (document.cookie == "") {
+    document.cookie = "highscore=0"
+}
+
 highscore = parseInt(document.cookie.replace('highscore=', ''))
 document.getElementById('highscore').innerHTML = highscore
 
@@ -230,9 +234,6 @@ function next(){
 
     enableAll()
 
-    if (document.cookie == "") {
-        document.cookie = "highscore=0"
-    }
 
     if (currenQ.start === 1) {
         document.getElementById('hs').style.display = 'none';
