@@ -198,6 +198,9 @@ var currenQ = {}
 currenQ.score = 0
 currenQ.start = 1
 
+highscore = parseInt(document.cookie.replace('highscore=', ''))
+document.getElementById('highscore').innerHTML = highscore
+
 function randomIntFromInterval(min, max) { 
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
@@ -227,8 +230,13 @@ function next(){
 
     enableAll()
 
+    if (document.cookie == "") {
+        document.cookie = "highscore=0"
+    }
+
     if (currenQ.start === 1) {
-        document.getElementById('dragon').style.display = 'none'
+        document.getElementById('hs').style.display = 'none';
+        document.getElementById('dragon').style.display = 'none';
         document.getElementById('score').style.display = 'block';
         document.getElementById('frage').style.display = 'block';
         document.getElementById('Antwort1').style.display = 'inline-block';
@@ -350,7 +358,13 @@ function checkanswer(number) {
         }
     }
 
+    highscore = parseInt(document.cookie.replace('highscore=', ''))
 
+    if (currenQ.score > highscore) {
+        document.cookie = "highscore=" + currenQ.score
+    }
+
+    console.log(document.cookie)
 
 }
 

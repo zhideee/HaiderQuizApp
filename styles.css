@@ -49,3 +49,10 @@ h3{
 #dragon{
     border-radius: 10%;
 }
+#hs h2{
+    font-family: 'Arial';
+    font-size: 500%;
+    margin: 0;
+    color: #a52e5f;
+    margin-bottom: 3%;
+}
