@@ -225,7 +225,7 @@ function next(){
     var len = data.replace(/[^{]/g, "").length
     var random_num = randomIntFromInterval(0, len - 1)
 
-    console.log(currenQ.start)
+    enableAll()
 
     if (currenQ.start === 1) {
         document.getElementById('dragon').style.display = 'none'
