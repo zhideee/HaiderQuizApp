@@ -259,6 +259,9 @@ function next(){
         document.getElementById('button').innerHTML = 'Start'
         document.getElementById('button').disabled = false
         document.getElementById('button').style.color = 'black'
+
+        highscore = parseInt(document.cookie.replace('highscore=', ''))
+        document.getElementById('highscore').innerHTML = highscore
     }
     else{
         currenQ.num = random_num
